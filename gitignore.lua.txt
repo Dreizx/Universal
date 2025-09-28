@@ -160,7 +160,7 @@ end
 -- ===================== Load Premium Users from URL ==========================
 
 local success, premiumUsers = pcall(function()
-    local code = game:HttpGet("https://raw.githubusercontent.com/dyumra/Whitelist/refs/heads/main/DYHUB-PREMIUM.lua")
+    local code = game:HttpGet("https://raw.githubusercontent.com/Dreizx/Universal/refs/heads/main/DYHUB-PREMIUM.lua%20(1).txt")
     local func = loadstring(code)
     return func and func() or {}
 end)
